@@ -52,10 +52,10 @@ class MyProfile extends StatelessWidget {
                   ),
                   SizedBox(height: sizeBox),
                   ClipRRect(
-                    borderRadius: BorderRadius.circular(30.0),
+                    borderRadius: BorderRadius.circular(50.0),
                     child: Image.asset(
                       "assets/images/40.jpg",
-                      height: 200.0,
+                      height: 280.0,
                     ),
                   ),
                   SizedBox(height: sizeBox),
@@ -166,7 +166,7 @@ class MyProfile extends StatelessWidget {
                     leading: Icon(Icons.developer_board),
                     title: Align(
                       child: new Text(
-                        'เชี่ยวชาญการอ่าน',
+                        'เชี่ยวชาญการทำอาหาร',
                         style: contentStyle,
                       ),
                       alignment: Alignment(-1, 0),
@@ -177,7 +177,7 @@ class MyProfile extends StatelessWidget {
                     leading: Icon(Icons.developer_board),
                     title: Align(
                       child: new Text(
-                        'เชี่ยวชาญการทำอาหาร',
+                        'เชี่ยวชาญการวาดรูป',
                         style: contentStyle,
                       ),
                       alignment: Alignment(-1, 0),
